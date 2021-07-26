@@ -68,5 +68,12 @@ what is a good leader
 illustration https://qaspire.com/2020/10/04/leading-the-self-in-tough-times-drucker-revisited/
 ikigai illustration to find strength https://www.performanceexcellencenetwork.org/pensights/finding-lifes-meaning-quest-discover-ikigai-pen-august-2017/
 
+What are you most proud of?
 
+I am currently in an engineering leadership role and this is where I wanted to be whenever I was asked 12 years ago - "where do you see yourself in the next 10-15 years". It has been hard work and determination to get here that I am extremely proud of.  I take pride in knowing when to throw the rule books out of the window and think outside the box.
+More about me - https://princiya.com/
 
+###############
+What are some things about me
+What I tend to do
+What motivates me? What drives me nuts? What qualities I value in people
