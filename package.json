@@ -59,7 +59,7 @@
     "start": "npm run develop",
     "build": "rm -rf public && rm -rf .cache && gatsby clean && gatsby build",
     "now-build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public",
     "dry": "yarn build && cp now.json public/ && cd public && now",
     "js-to-jsx": "node src/utils/js-to-jsx"
   },
