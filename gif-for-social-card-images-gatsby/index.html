@@ -70,7 +70,7 @@
                 setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
               })();
             </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh"><div><header class="header"><h1 style="font-size:1.25743rem;line-height:1.75rem;margin-bottom:0;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:var(--textLink)" href="/blog/">P`s Blog</a></h1><h1 style="font-size:1.25743rem;line-height:1.75rem;margin-bottom:0;margin-top:0;font-family:cursive"><a style="box-shadow:none;text-decoration:none;color:var(--textLink)" href="https://princiya.com">Princiya</a></h1><div style="height:24px"></div></header><aside class="bg-secondary"><div style="margin-bottom:3.5rem" class="bio layout__body"><img src="/blog/static/profile-pic-839b4b350f22ac240dd20efc9cf8af01.jpeg" alt="Princiya Sequeira" style="margin-right:0.875rem;margin-bottom:0;width:3.5rem;background-size:contain;border-radius:4px"/><div style="max-width:50%;margin-bottom:0"><p style="font-family:Montserrat, sans-serif;font-size:1.3125rem">Personal blog by<!-- --> <a href="https://princiya.com">Princiya Sequeira</a>.</p><p>I blog about my journey into a technical leadership role.</p><p>I am a skilled programmer with strong communication skills and 12+ years of experience building full-stack web &amp; mobile apps, implementing CI/CD solutions and supporting infrastructures, including 3+ years of experience leading technical teams at scale.</p><a href="https://princiya.com/blog/tags" rel="noopener noreferrer">See all blog categories</a><footer style="margin-top:0;padding-top:1.75rem"><a href="https://twitter.com/princi_ya" target="_blank" rel="noopener noreferrer">twitter</a> <!-- -->•<!-- --> <a href="https://github.com/princiya" target="_blank" rel="noopener noreferrer">github</a> <!-- -->•<!-- --> <a href="https://princiya.com/blog/rss.xml" target="_blank" rel="noopener noreferrer">rss</a></footer></div></div></aside><div style="padding:0 1.3125rem 2.625rem;margin-left:auto;margin-right:auto;max-width:42rem" class="layout__body"><main><article><header><h1 style="color:var(--textTitle)">How to create automated GIF social sharing cards</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.4rem">January 8, 2021<!-- --> • ☕️ 3 min read</p><div class="tags" style="z-index:1"><a style="box-shadow:none" rel="bookmark" class="tagLabel" href="/blog/tags/gatsby">gatsby</a><a style="box-shadow:none" rel="bookmark" class="tagLabel" href="/blog/tags/tutorial">tutorial</a></div></header><div><p><em>Post updated: 22.03.2021</em></p>
-<p><img src="/2ef6dad5c6ad1213618b4b8c2daa9b44/card.gif" alt="Add GIFS for social sharing using Gatsby"></p>
+<p><img src="/blog/2ef6dad5c6ad1213618b4b8c2daa9b44/card.gif" alt="Add GIFS for social sharing using Gatsby"></p>
 <p>I wanted to have automated social sharing cards for my Gatsby blog and I developed this as a side-project during the December 2020 holidays. While working on this, I wondered why not make the cards GIFfy. I was quite excited and was able to achieve what I wanted, only to get disappointed when I shared on Twitter that the GIF did not render as expected; it rendered as a non-GIF version. Given that I could not recall seeing a single GIF as a social card on Twitter, I should have known what to expect 😅.</p>
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Preview of my next upcoming post! 📢 ✍️<a href="https://t.co/tDhi9p1zo6">https://t.co/tDhi9p1zo6</a><br><br>&quot;How to automate the gif creation for social sharing cards&quot; <a href="https://t.co/YP7RTjs0lC">pic.twitter.com/YP7RTjs0lC</a></p>&mdash; Princiya 👧‍ (@princi_ya) <a href="https://twitter.com/princi_ya/status/1347585529408225280?ref_src=twsrc%5Etfw">January 8, 2021</a></blockquote>
 
@@ -86,7 +86,7 @@
 </blockquote>
 <h3 id="1-setup"><a href="#1-setup" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Setup</h3>
 <p>I followed the above mentioned tutorial to setup a Gatsby plugin which would generate automated images; the tutorial was pretty straight forward. I used <a href="http://vectr.com/" target="_blank" rel="nofollow noopener noreferrer">Vectr</a> to setup the below shown template which is the base GIF the plugin uses to print text.</p>
-<p><img src="/9edca103e9f3c67bcb28f794f55158f5/banner.gif" alt="Banner GIF"></p>
+<p><img src="/blog/9edca103e9f3c67bcb28f794f55158f5/banner.gif" alt="Banner GIF"></p>
 <p>It was the Christmas holiday season when I was working on this, and I picked the lights from this <a href="https://codepen.io/tobyj/pen/QjvEex" target="_blank" rel="nofollow noopener noreferrer">Codepen</a>.</p>
 <p>I used <a href="https://getwaves.io/" target="_blank" rel="nofollow noopener noreferrer">getwaves.io</a> to generate the wave for the base GIF template.</p>
 <h3 id="2-using-nodejs-library"><a href="#2-using-nodejs-library" aria-hidden class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Using Node.js library</h3>
@@ -95,7 +95,7 @@
 <p>
   <a
     class="gatsby-resp-image-link"
-    href="/static/6fdecbd82347cef004d8d1b97cf32415/de766/explained.png"
+    href="/blog/static/6fdecbd82347cef004d8d1b97cf32415/de766/explained.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -114,13 +114,13 @@
         style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
         alt="Code explained"
         title=""
-        src="/static/6fdecbd82347cef004d8d1b97cf32415/fcda8/explained.png"
-        srcset="/static/6fdecbd82347cef004d8d1b97cf32415/12f09/explained.png 148w,
-/static/6fdecbd82347cef004d8d1b97cf32415/e4a3f/explained.png 295w,
-/static/6fdecbd82347cef004d8d1b97cf32415/fcda8/explained.png 590w,
-/static/6fdecbd82347cef004d8d1b97cf32415/efc66/explained.png 885w,
-/static/6fdecbd82347cef004d8d1b97cf32415/c83ae/explained.png 1180w,
-/static/6fdecbd82347cef004d8d1b97cf32415/de766/explained.png 1838w"
+        src="/blog/static/6fdecbd82347cef004d8d1b97cf32415/fcda8/explained.png"
+        srcset="/blog/static/6fdecbd82347cef004d8d1b97cf32415/12f09/explained.png 148w,
+/blog/static/6fdecbd82347cef004d8d1b97cf32415/e4a3f/explained.png 295w,
+/blog/static/6fdecbd82347cef004d8d1b97cf32415/fcda8/explained.png 590w,
+/blog/static/6fdecbd82347cef004d8d1b97cf32415/efc66/explained.png 885w,
+/blog/static/6fdecbd82347cef004d8d1b97cf32415/c83ae/explained.png 1180w,
+/blog/static/6fdecbd82347cef004d8d1b97cf32415/de766/explained.png 1838w"
         sizes="(max-width: 590px) 100vw, 590px"
       />
     </span>
