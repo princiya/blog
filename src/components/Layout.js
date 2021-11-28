@@ -69,7 +69,7 @@ class Layout extends React.Component {
   render() {
     const { children, maxWidth = false, margin = 'auto' } = this.props;
     const bodyStyle = {
-      padding: `0 ${rhythm(3 / 4)} 2.625rem`,
+      // padding: `0 ${rhythm(3 / 4)} 2.625rem`,
     };
 
     if (margin === 'auto') {
