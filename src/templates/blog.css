@@ -71,3 +71,14 @@
   color: var(--tag-text);
   font-size: 0.6rem;
 }
+
+.infoBanner {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: var(--info-background);
+  color: var(--tag-text);
+  font-size: 1.2rem;
+}

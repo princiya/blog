@@ -6,10 +6,6 @@ cta: 'leadership'
 tags: ["draft"]
 ---
 
-## DRAFT POST
-
-This post is not complete! You are reading a draft version
-
 ## Measuring where someone is at
 
 “Competency” means how well the person understands the skill.

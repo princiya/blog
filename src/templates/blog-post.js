@@ -141,6 +141,8 @@ class BlogPostTemplate extends React.Component {
       `https://princiya.com/blog${enSlug}`
     )}`;
 
+    const isDraftPost = post.frontmatter.tags.includes('draft');
+
     return (
       <Layout location={this.props.location} title={siteTitle} maxWidth={true}>
         <SEO
@@ -176,6 +178,15 @@ class BlogPostTemplate extends React.Component {
               )}
               <TagLabels tags={post.frontmatter.tags || []} />
             </header>
+            {isDraftPost && (
+              <div className="infoBanner">
+                This is a draft post and will be completed soon. The thoughts on
+                this post are my raw brain dump. Read all completed posts {` `}
+                <Link style={{ boxShadow: 'none' }} to={`/`} rel="bookmark">
+                  here.
+                </Link>
+              </div>
+            )}
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </article>
         </main>

@@ -16,6 +16,7 @@ body.light {
   --form-shadow: 0 2px 15px 0 rgba(210, 214, 220, 0.5);
   --tag-background: rgb(54, 60, 72);
   --tag-text: rgba(255, 255, 255, 0.88);
+  --info-background: #0dcaf0;
 }
 
 body.dark {
@@ -33,6 +34,7 @@ body.dark {
   --form-shadow: 0 2px 15px 0 rgba(26, 26, 27, 0.637);
   --tag-background: rgb(249, 250, 251);
   --tag-text: #222;
+  --info-background: #0d6efd;
 }
 
 /*

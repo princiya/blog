@@ -1,7 +1,7 @@
 ---
 title: Grieving over a job break up
 date: '2021-05-21'
-spoiler: job break up
+spoiler: I decided to quit my job and was overwhelmed with emotions
 cta: 'job'
 tags: ["draft"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Cypress TypeScript code coverage report
-date: '2020-07-04'
-spoiler: So I tried Flutter today for the first time
+date: '2021-06-04'
+spoiler: Code instrumentation and generating test coverage reports
 cta: 'Flutter'
 tags: ["draft"]
 ---

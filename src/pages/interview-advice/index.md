@@ -6,10 +6,6 @@ cta: 'interview'
 tags: ["draft"]
 ---
 
-## DRAFT POST
-
-This post is not complete! You are reading a draft version
-
 - **Tell me about yourself** —> Mention what you want them to hear or know about you; your learnings, accomplishments etc. 
   - Keep a list of accomplishments ready
   - Important learnings, lessons learned
