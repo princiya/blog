@@ -17,7 +17,7 @@ async function init() {
         (width / 2) - (width / 4),
         (height / 2) - (height / 4),
         {
-          text: "This is an automated GIF",
+          text: "Thank you for listening!",
           alignmentX: jimp.HORIZONTAL_ALIGN_CENTER,
           alignmentY: jimp.VERTICAL_ALIGN_MIDDLE,
         },
