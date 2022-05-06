@@ -1,9 +1,9 @@
 ---
 title: Increase your productivity like a pro!
-date: '2022-01-11'
+date: '2022-02-11'
 spoiler: How to Eisenhower between things and get better at it.
 cta: 'Manage priorities'
-tags: ["leadership", "transition", "draft"]
+tags: ["leadership", "transition"]
 cover: './priority.jpg'
 ---
 
