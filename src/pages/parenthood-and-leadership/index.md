@@ -7,24 +7,24 @@ tags: ["leadership", "draft"]
 cover: './leader.jpg'
 ---
 
-Think of a child growing up. The child is able to bring out the best from within based on a supportive environment and parents.
+Think of a child growing up. The child can bring out the best from within based on a supportive environment and parents.
 
 Replace the following:
--  `child` with a person at job
+-  `child` with a person at a job
 - `environment` with `team`
 - `parents` with `leaders`
 
-A child may not necessarily see parents as leaders, but if we look at it, parents are expected to lead by example, create a culture for respect and trust, and at some point create a space for the child to grow and lead their lives. As leaders, this is what we do too.
+A child may not necessarily see parents as leaders, but if we look at it, parents are expected to lead by example, create a culture of respect and trust, and at some point, create a space for the child to grow and lead their lives. As leaders, this is what we do too.
 
 ## Leading by example
 
-A child grows in its parent's shadows and tends to do things following them. It is important to lead by examples and not just dictating upon how things need to be done.
+A child grows in its parent's shadows and tends to do things following them. It is necessary to lead by example and not just dictate how things need to work.
 
-_At my previous job working at a highly regulated digital health tech space, we had to follow strict compliance rules for Jira tickets; tickets needed to have a good acceptance criteria defined and all conversations tracked in comments. The rationale was that for every release all the digital artifacts would be stored for the next 10 years and during this time if any of our product development work led to any loss of a patient's life then we had to be able to track down the source of the cause._
+_At my previous job working at a highly regulated digital health tech space, we had to follow strict compliance rules for Jira tickets; tickets needed to have good acceptance criteria defined and all conversations tracked in comments. For every release cycle, we should have been able to store all the digital artifacts for ten years. And during this time, if any of the product development work led to any loss of a patient's life, we would be able to track down the source of the cause._
 
-_And also writing tests, we had to have a very high bar to writing tests and a threshold._
+_Also, for writing tests, we had to have a very high bar to writing tests and a coverage threshold._
 
-_Given how boring both these tasks were, we often used to skip or assume things were either spoken about a Jira ticket or write simple tests just to meet the threshold. As a leader if I wanted to improve this, I had to first do this and lead this by an example!_
+_Given how monotonous both these tasks were, we often used to skip or assume things were either spoken about a Jira ticket or write simple tests to meet the coverage threshold. As a leader, if I wanted to change this, then I had to do this myself and lead by example!_
 
 ## Respect and trust
 
