@@ -69,3 +69,13 @@ Explain start time, segments, duration, etc.
 - Ask me anything or panel discussion (45 mins)
 - Game: (blind website design challenge or quiz)
 - Wrap up
+
+Q: How has Women Who Code impacted your career and why is it important to you?
+
+I gave my first keynote at WWCode Connect Recharge 2022. I am humbled by this opportunity. As a leadership fellow with WWCode I get to interact with the community and be recognised as a leader outside of my regular day to day job too. Thank you WWCode!
+
+Q: How will you benefit from this scholarship? Please share 2 professional goals.
+
+I am looking at ways to scale my career to the next level and I believe this scholarship can help me get access to a leadership coach, a global community of other peers who are on a similar path and learn and grow alongside.
+
+
