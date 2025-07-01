@@ -6,7 +6,7 @@ async function init() {
   try {
     //const titleFont = await jimp.loadFont(`${__dirname}/fonts/OpenSans.fnt`);
     const titleFont = await jimp.loadFont(jimp.FONT_SANS_64_BLACK);
-    const rawImage = await GifUtil.read("./templates/princiya.com.gif");
+    const rawImage = await GifUtil.read("./templates/astro-cover.gif");
     const copiedAsJimp = GifUtil.shareAsJimp(jimp, rawImage.frames[0]);
     const frames = [];
     const { width, height } = rawImage.frames[0].bitmap;
@@ -17,7 +17,7 @@ async function init() {
         (width / 2) - (width / 4),
         (height / 2) - (height / 4),
         {
-          text: "Thank you for listening!",
+          text: "Autonomy and self-organisation for engineering teams",
           alignmentX: jimp.HORIZONTAL_ALIGN_CENTER,
           alignmentY: jimp.VERTICAL_ALIGN_MIDDLE,
         },
